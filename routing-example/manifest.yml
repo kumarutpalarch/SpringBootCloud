@@ -1,0 +1,7 @@
+---
+applications:
+- name: routing-example
+  memory: 1024M
+  buildpack: java_buildpack
+  routes:
+  - route: routing-example.cfapps.io
